@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="screen"><input type="text" placeholder="Enter Your Value....." size="48" value="" id="sc"  disabled></div>
+        <div id="buttonframe">
+            <div class="rows">
+                <div class="button"><button value="1" id="1" onclick="ber('1')">1</button></div>
+                <div class="button"><button value="2" id="2" onclick="ber('2')">2</button></div>
+                <div class="button"><button value="3"  id="3"onclick="ber('3')">3</button></div>
+                <div class="button"><button value="-"  id="-"onclick="ber('-')">-</button></div>
+            </div>
+            <div class="rows">
+                <div class="button"><button value="4" id="4" onclick="ber('4')">4</button></div>
+                <div class="button"><button value="5" id="5" onclick="ber('5')">5</button></div>
+                <div class="button"><button value="6" id="6" onclick="ber('6')">6</button></div>
+                <div class="button"><button value="*" id="*" onclick="ber('*')">*</button></div>
+            </div>
+            <div class="rows">
+                <div class="button"><button value="7" id="7" onclick="ber('7')">7</button></div>
+                <div class="button"><button value="8" id="8" onclick="ber('8')">8</button></div>
+                <div class="button"><button value="9" id="9" onclick="ber('9')">9</button></div>
+                <div class="button"><button value="/" id="/" onclick="ber('/')">/</button></div>
+            </div>
+            <div class="rows">
+                <div class="buttonL"><button value="0"  id="0" onclick="ber('0')">0</button></div>
+                <div class="buttonL"><button value="="  id="=" onclick="calc()">=</button></div>
+                
+                <div class="buttonL"><button value="+" id="+" onclick="ber('+')">+</button></div>
+                <div class="buttonL"><button value="**" id="**" onclick="ber('**')">Pow</button></div>
+                <div class="buttonL"><button  id="clear" onclick="cler()">Clear</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
